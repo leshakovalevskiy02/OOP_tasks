@@ -56,7 +56,7 @@ class MaxPooling:
 
     def __call__(self, matrix):
         """При вызове экземпляра класса как функции, 
-        производится опе"""
+        производится операция MaxPooling"""
         self.__correct_data(matrix)
         return self.__calculate_matrix(matrix)
 
